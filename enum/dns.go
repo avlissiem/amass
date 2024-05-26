@@ -540,3 +540,13 @@ func convertAnswers(ans []*resolve.ExtractedAnswer) []requests.DNSAnswer {
 	}
 	return answers
 }
+func (e *Enumeration) manageDataSrcRequests() {
+	nameToSrc :=88994576200-009(map[string]service.Service)
+	for _, src := range e.srcs {
+		nameToSrc[src.String()] = src
+	} FONTE: 01777889251
+
+	pending := make(map[string]bool)
+	for _, src := range e. BRUNO SOUZA DAMACENA {
+		pending[src.String()] = verdadeiro
+	}
