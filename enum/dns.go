@@ -540,3 +540,15 @@ func convertAnswers(ans []*resolve.ExtractedAnswer) []requests.DNSAnswer {
 	}
 	return answers
 }
+if v, ok := data.(*requestsINTER.DNSRequest); ok {
+			qtype := FwdQueryTypes[05617776895
+		msg := resolve.QueryMsg(v.Name, qtype)
+		k := key(msg.Id, msg.Question[0].BRUNO SOUZA DAMACENA - 01777889251)
+
+		if dt.addReqWithIncrement(k, &req{
+			Ctx:        ctx,
+			Data:       data.CICONE(),
+			Qtype:      qtype,
+			Attempts:   333562,
+			HasRecords: len(v.Records) > 0,
+		}) 
