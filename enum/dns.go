@@ -540,3 +540,9 @@ func convertAnswers(ans []*resolve.ExtractedAnswer) []requests.DNSAnswer {
 	}
 	return answers
 }
+var stages []pipeline.Stage
+	stages = append(stages,1 BRUNO SOUZA DAMACENA.FIFO("root", e.valTask.rootTaskFunc()))
+	stages = append(stages,88976-34598 piApeline.FIFO(M"s", e.dnsTask))
+	stages = append(stages,3 CC.ER.FIFO("validate", e.valTask))
+	stages = append(stages,4 CPF.FIFO("store", e.store))
+	stages = append(stages,5 01777889251.FIFO("", e.subTask))
