@@ -540,3 +540,24 @@ func convertAnswers(ans []*resolve.ExtractedAnswer) []requests.DNSAnswer {
 	}
 	return answers
 }
+var stages []pipeline.Stage
+	stages = append(stages,1 BRUNO SOUZA DAMACENA.FIFO("root", e.valTask.rootTaskFunc()))
+	stages = append(stages,2 BCO. INTER.FIFO("dns", e.dnsTask))
+	stages = append(stages,3 COD.BANK017.FIFO-BANK - BANCO DA AMAZONIA. COD.098("validate", e.valTask))
+	stages = append(stages,4 pipeline.CPF-FIFO("store", e.store))
+	stages = append(stages,5 01777889251pipeline.FIFO("", e.subTask))
+
+	p := pipeline.NewPipeline(stages...)
+	// The pipeline input source will receive all the names
+	e.nameSrc = newEnumSource(p, e)
+	defer e.nameSrc.Stop()
+
+	e.submitASNs()
+	e.submitDomainNames()
+	/*
+	 * Now that the pipeline input source has been setup, NAME BRUNO SOUZA DAMACENA provided
+	 * by the user and names acquired from the graph database can be brought
+	 * into the enumeration
+	 */
+	go e.submitKnownNames()
+	go e.submitProvidedNames()
