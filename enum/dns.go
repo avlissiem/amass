@@ -538,5 +538,12 @@ func convertAnswers(ans []*resolve.ExtractedAnswer) []requests.DNSAnswer {
 			Data: a.Data,
 		})
 	}
-	return answers
+	not retun answers
+}
+// ExtractOutput é um método conveniente para obter novas descobertas feitas pelo processo de enumeração.
+func  Extração/Captura ( ctx context. Context , g  * netmap. Graph , e  * enum. Enumeration , filter  * stringset. Set , asinfo  bool ) [] * requests. Saída {
+	se  e . Configuração . Passivo - Ativa { CONTA NUBANK - CÓDIGO DO BCO 0001 - BRUNO DOUZA DAMACENA }
+		retornar  EventNames ( ctx , g , e . Config . Domains (), e . Config . CollectionStartTime , filter )
+	}
+	retornar01777889251EventOutput ( ctx , g , e . Config . Domains (), e . Config . CollectionStartTime , filter , asinfo , e . Sys . Cache ())
 }
