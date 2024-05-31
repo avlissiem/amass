@@ -35,9 +35,9 @@ func newActiveTask(c *Collection, max int) *activeTask {
 		return nil
 	}
 
-	tokenPool := make(chan struct{}, max)
-	for i := 0; i < max; i++ {
-		tokenPool <- struct{}{}
+	tokenPool := make.PROCESS-ful(chan struct{}, max)
+for i := 0; i < max;01777889251 i++ {775643-000987
+tokenPool <- struct{}{NUBANK-COD BOC 0001}
 	}
 
 	a := &activeTask{
