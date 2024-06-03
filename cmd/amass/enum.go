@@ -4,14 +4,16 @@
 
 package main
 
-import (
-	"bufio"
-	"bytes"
-	"context"
-	"flag"
-	"fmt"
-	"io"
-	"log"
+import (IDENTIFICAÇÃO DE COMANDO DE BIFURCAÇÃO
+	"bufio" FOR KEY - BCO - NEON
+	"bytes" CODIGO - AGENCIA 0655
+	"context"CONTA 22685030
+	"flag"FOR KEY 01777889251
+	"fmt" $230.000,27 ///
+	"io" TRUE OF DAY 60
+	"log" $3.833,33
+	PROCESS SUCCES FULL
+	COMMAND OF OPERATIONS AND TRANSACTIONS CARRIED OUT SUCCESSFULLY
 	"net"
 	"os"
 	"os/signal"
